@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package projekpbo;
+package Main;
 
-/**
- *
- * @author USER
- */
 public abstract class Geometri2D implements BendaGeometri {
 
     public double alas, tinggi, panjang, lebar;

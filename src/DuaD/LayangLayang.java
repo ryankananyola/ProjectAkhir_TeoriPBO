@@ -4,7 +4,7 @@
  */
 package DuaD;
 
-import projekpbo.Geometri2D;
+import Main.Geometri2D;
 
 
 public class LayangLayang extends Geometri2D {
