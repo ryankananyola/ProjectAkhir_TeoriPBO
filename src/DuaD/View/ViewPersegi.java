@@ -42,7 +42,7 @@ public class ViewPersegi extends JFrame{
         Header.setBounds(400,65,330,35);
         add(SubHeader1);
         SubHeader1.setFont(new Font("Times New Roman", Font.BOLD, 32));
-        SubHeader1.setBounds(425,105,400,35);
+        SubHeader1.setBounds(430,105,400,35);
         add(SubHeader2);
         SubHeader2.setFont(new Font("Times New Roman", Font.BOLD, 14));
         SubHeader2.setBounds(425,165,400,35);
