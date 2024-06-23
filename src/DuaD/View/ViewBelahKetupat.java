@@ -31,7 +31,7 @@ public class ViewBelahKetupat extends JFrame{
     public ViewBelahKetupat(){
         
         setVisible(true);
-        setTitle("Halaman Menu 2D");
+        setTitle("Halaman Menu Belah Ketupat");
         setSize(1000, 620);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
