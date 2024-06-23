@@ -31,7 +31,7 @@ public class ViewPersegiPanjang extends JFrame{
     public ViewPersegiPanjang(){
         
         setVisible(true);
-        setTitle("Halaman Menu 2D");
+        setTitle("Halaman Menu Persegi Panjang");
         setSize(1000, 620);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
