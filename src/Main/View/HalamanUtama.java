@@ -57,6 +57,7 @@ public class HalamanUtama extends JFrame {
         tombol2D.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                dispose();
                 new HalamanMenu2D();
             }
         });
@@ -64,6 +65,7 @@ public class HalamanUtama extends JFrame {
         tombol3D.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
                 new HalamanMenu3D();
             }
         });

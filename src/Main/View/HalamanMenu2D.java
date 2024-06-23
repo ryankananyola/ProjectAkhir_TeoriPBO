@@ -1,5 +1,13 @@
 package Main.View;
 
+import DuaD.View.ViewBelahKetupat;
+import DuaD.View.ViewJajarGenjang;
+import DuaD.View.ViewLayang;
+import DuaD.View.ViewLingkaran;
+import DuaD.View.ViewPersegi;
+import DuaD.View.ViewPersegiPanjang;
+import DuaD.View.ViewSegitiga;
+import DuaD.View.ViewTrapesium;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -88,54 +96,71 @@ public class HalamanMenu2D extends JFrame {
         tombolBelahKetupat.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                dispose();
+                new ViewBelahKetupat();
             }
         });
         
         tombolJajarGenjang.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewJajarGenjang();
             }
         });
         
         tombolLayang.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewLayang();
             }
         });
         
         tombolLingkaran.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewLingkaran();
             }
         });
         
         tombolPersegi.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewPersegi();
             }
         });
         
         tombolPersegiPanjang.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewPersegiPanjang();
             }
         });
         
         tombolSegitiga.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewSegitiga();
             }
         });
         
         tombolTrapesium.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewTrapesium();
             }
         });
         
         tombolKembali.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
                 new HalamanUtama();
             }
         });

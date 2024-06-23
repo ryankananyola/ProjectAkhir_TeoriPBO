@@ -147,6 +147,7 @@ public class HalamanMenu3D extends JFrame {
         tombolKembali.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
                 new HalamanUtama();
             }
         });
