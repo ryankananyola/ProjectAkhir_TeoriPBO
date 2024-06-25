@@ -1,5 +1,14 @@
 package Main.View;
 
+import TigaD.View.ViewBola;
+import TigaD.View.ViewCincinBola;
+import TigaD.View.ViewJuring;
+import TigaD.View.ViewKerucut;
+import TigaD.View.ViewLimasPP;
+import TigaD.View.ViewLimasPersegi;
+import TigaD.View.ViewPrisma;
+import TigaD.View.ViewTabung;
+import TigaD.View.ViewTembereng;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -93,54 +102,72 @@ public class HalamanMenu3D extends JFrame {
         tombolBola.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                dispose();
+                new ViewBola();
             }
         });
         
         tombolCincinBola.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewCincinBola();
             }
         });
         
         tombolJuring.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewJuring();
             }
         });
         
         tombolKerucut.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewKerucut();
             }
         });
         
         tombolLimasPP.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewLimasPP();
             }
         });
         
         tombolLimasPersegi.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewLimasPersegi();
             }
         });
         
         tombolPrisma.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewPrisma();
             }
         });
         
         tombolTabung.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewTabung();
             }
         });
         
         tombolTembereng.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
+                dispose();
+                new ViewTembereng();
             }
         });
         
